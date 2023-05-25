@@ -1,3 +1,4 @@
+//Please read README first
 import {
   createBasicElementsPlugin,
   createBoldPlugin,
