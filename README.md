@@ -16,8 +16,8 @@ Key Features:
 
 Installation and Usage:
 1. Clone the repository and navigate to the project directory.
-2. Install the dependencies by running the command: `npm install` or `yarn install`.
-3. Start the development server with: `npm start` or `yarn start`.
+2. Install the dependencies by running the command: `npm install`.
+3. Start the development server with: `npm run dev`.
 4. Open your browser and visit the specified localhost URL to see the application in action.
 5. Modify the code and customize the table as per your needs.
 
