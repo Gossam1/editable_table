@@ -1,3 +1,4 @@
+//Please read README first
 import { Fragment, useCallback, useEffect, useState } from 'react';
 import './App.css';
 import EditableTable from './EditableTable';
