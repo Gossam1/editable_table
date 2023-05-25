@@ -1,7 +1,6 @@
+//Please read README first
 export enum TableType {
   table1 = 'table1',
-  // table2 = 'table2',
-  // table3 = 'table3',
 }
 
 interface TableHeader {
@@ -53,13 +52,6 @@ const table1: TableContent = {
           { value: '0', label: 'Miami' },
           { value: '1', label: 'Orlando' },
           { value: '2', label: 'Tampa' },
-          // { value: '3', label: 'Abdomen' },
-          // { value: '4', label: 'Extremities' },
-          // { value: '5', label: 'Eyes' },
-          // { value: '6', label: 'Nose' },
-          // { value: '7', label: 'Breast' },
-          // { value: '8', label: 'Tonsils' },
-          // { value: '9', label: 'Arms' },
         ],
       },
     },
@@ -113,6 +105,4 @@ type TableListType = { [key in TableType]: TableContent };
 
 export const TableList: TableListType = {
   table1: table1,
-  // table2: table2,
-  // table3: table3,
 };
