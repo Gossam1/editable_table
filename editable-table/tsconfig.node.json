@@ -1,3 +1,4 @@
+//Please read README first
 {
   "compilerOptions": {
     "composite": true,
